@@ -1,0 +1,149 @@
+@media screen and (max-width: 400px) {
+
+}
+
+@media screen and (min-width: 401px) and (max-width: 400px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+body {
+    margin: 0 auto;
+	padding: 15px;
+    background-color: #FFF;
+    line-height: 25px;
+}
+
+.wrapper {
+    width: 100%;
+    border-radius: 10px;
+    table-layout: fixed;
+}
+.wrapper-inner {
+    width: 100%;
+    border: 20px solid #e6e6e6;
+    border-radius: 10px;
+    background-color: #ffffff;
+	max-width: 670px;
+    margin: 0 auto;
+}
+.outer-table {
+    width: 500px;
+    text-align: center;
+}
+.content {
+    width: 650px;
+    text-align: center;
+    float: left;
+}
+.logo {
+    padding-top: 50px;
+    width: 400px;
+}
+.outer-table {
+    width: 650px;
+    text-align: center;
+}
+.navbar {
+    block-size: 30px;
+}
+.nav {
+    list-style: none;
+    display: inline-flex;
+}
+.nav-buttons {
+    padding: 10px;
+    text-decoration: none;
+}
+.nav-buttons:hover {
+    color:#ff704d;
+    
+}
+.title {
+    margin-left: 120px;
+    width: 100%;
+}
+.pTitle {
+    font-size: 35px;
+    color: #006bb3;
+    width: 70%;
+    line-height: 30px;
+}
+.inner-content {
+    padding: 50px;
+    padding-top: 10px;
+    text-align: center;
+}
+.h2 {
+    font-weight: bold;
+    font-size: 20px;
+}
+.left-para {
+    text-align: left;
+}
+.content2data {
+    display: flex;
+    padding: 50px;
+}
+.content2text {
+    margin-left: 10px;
+}
+.content2link {
+    text-decoration: none;
+    margin-top:5px;
+}
+.row-button {
+    width: 100%;
+    text-align: center;
+}
+.btn-login {
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #006bb3;
+    color: white;
+}
+.btn-login:hover {
+    background-color: #ff704d;
+}
+.store {
+    max-width: 150px;
+    padding: 5px;
+}
+
+.outer-table-footer {
+    height: 500px;
+    width: 100%;
+    background-color: #e6e6e6;
+}
+.one-column {
+    vertical-align: 0%;
+}
+.title-footer {
+    font-size: 25px;
+    color: #006bb3;
+    font-weight: bold;
+    margin-right:5px;
+}
+.navbar-footer {
+    block-size: 60px;
+}
+.nav-footer {
+    list-style: none;
+    display: inline-flex;
+    margin-right: 50px;
+}
+.logo-footer {
+    padding-top: 50px;
+    width: 300px;
+}
+.clear {
+    display: clear;
+}
+.thankyou-footer {
+    margin-top: 100px;
+}

@@ -1,0 +1,316 @@
+hr {
+    display:block;
+    border:none;
+    color:white;
+    height:1px;
+    background:black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
+}
+
+body {
+    margin: auto;
+    width: 70%;
+    font-size: 87.5%;
+    font-family: Arial, 'Lucida Sans Unicode';
+    text-align: left;
+}
+
+header {
+    margin: 0 auto;
+    width: 70%;
+    clear: both;
+}
+
+#logo {
+    width: 20%;
+    padding-left: 270px;
+}
+
+ul {
+    padding: 5px;
+    list-style-image: url('');
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+}
+.btn-download {
+    width: 106%;
+    padding: 20px;
+    color: white;
+    background-color: #b3d9ff;
+    font-size: 20px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.btn-download:hover {
+    color: lightblue;
+}
+.container {
+    width: 60%;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.left-info {
+    width: 60%;
+    float: left;
+    height: 400px;
+    line-height: 35px; 
+}
+
+.right-info {
+    width: 40%;
+    float: left;
+    height: 500px;
+    line-height: 15px;
+}
+
+#clear {
+    clear: both;
+}
+
+.url-acc {
+    color: blue;
+}
+
+.url-acc:hover {
+    color: lightblue;
+}
+
+.container-2 {
+    width: 50%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.left-items {
+    width: 50%;
+    float: left;
+    height: 200px;
+    line-height: 15px;
+}
+
+.right-items {
+    width: 50%;
+    float: left;
+    height: 200px;
+    line-height: 15px;
+}
+
+.container-foot {
+    width: 50%;
+    margin: auto;
+}
+
+.container-platforms {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-left: 200px;
+}
+.left-plat {
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+.mid-plat {
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+.right-plat {
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+.container-trades {
+    width: 100%;
+    height: 100%;
+    margin-left: 400px;
+}
+.left-plat2 {
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+.right-plat2 {
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+
+#container-trader {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.btn-reg {
+    width: 25%;
+    padding: 20px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: white;
+    background-color: #b3d9ff;
+    font-size: 10px;
+}
+
+#img-plat {
+    width: 40%;
+    height: auto;
+    margin: 1% 0;
+}
+
+.container-reviews {
+    width: 50%;
+    margin: auto;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 650px) {
+    body {
+        width: 90%;
+    }
+    #logo {
+        width: 100%;
+        padding-left: 0px;   
+    }
+    .container {
+        width: 95%;
+        margin: auto;
+        padding-bottom: 0px;
+        padding-top: 50px;
+    }
+    
+    .left-info {
+        width: 90%;
+        height: 550px;
+    }
+    
+    .right-info {
+        width: 90%;
+        height: 500px;
+    }
+
+    .container-2 {
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+    
+    .left-items {
+        width: 90%;
+    }
+    
+    .right-items {
+        width: 90%;
+    }   
+    .container-platforms {
+        margin-left: 70px;
+    }
+    .mid-plat {
+        margin-bottom: 50px;
+    }
+    .container-trades {
+        margin-left: 100px;
+    }
+    #container-trader {
+        width: 90%;
+    }
+    .container-foot {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .btn-reg {
+        width: 90%;
+        font-size: 25px;
+    }    
+}
+
+@media only screen and (min-width: 650px) and (max-width: 1800px) {
+    body {
+        width: 70%;
+    }
+    #logo {
+        width: 90%;
+        padding-left: 0px;   
+    }
+    .container {
+        width: 95%;
+        margin: auto;
+        padding-bottom: 0px;
+        padding-top: 50px;
+    }
+    
+    .left-info {
+        width: 90%;
+        height: 550px;
+    }
+    
+    .right-info {
+        width: 90%;
+        height: 500px;
+    }
+
+    .container-2 {
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+    
+    .left-items {
+        width: 90%;
+    }
+    
+    .right-items {
+        width: 90%;
+    }   
+    .container-platforms {
+        margin-left: 70px;
+    }
+    .mid-plat {
+        margin-bottom: 50px;
+    }
+    .container-trades {
+        margin-left: 100px;
+    }
+    #container-trader {
+        width: 90%;
+    }
+    .container-foot {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .btn-reg {
+        width: 90%;
+        font-size: 25px;
+    }    
+}
+
+
+
+
+<!-- Show/hide Password >
+  .fa{
+    color:white;
+    font-size:27px;
+    margin-left:8px;
+  }
+  #validation-txt{
+    color:red;
+    font-size:18px;
+    width: 300px;
+  }
+  #password-3{
+    -webkit-text-security: disc;
+      -moz-text-security:circle;
+       text-security:circle;
+  }
+  input[type=number]::-webkit-inner-spin-button, 
+  input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+  }
